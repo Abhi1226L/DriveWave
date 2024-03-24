@@ -19,3 +19,8 @@ span{
 .background-section img{
   height:90vh;
 }
+
+.buttons button{
+  display:flex;
+  justify-content:start;
+}
