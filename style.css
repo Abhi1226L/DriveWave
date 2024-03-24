@@ -1,14 +1,16 @@
+*{
+  margin:0;
+  padding:0;
+}
+
 span{
     font-family: "Pacifico", cursive;
     font-weight: 400;
     font-style: normal;
 }
 
-/* Main */
-#background{
-    height:25rem;
-    background-image:url(/project2/dash.png);
-    background-size:cover;
-  }
-  
-  
+.hero-theme{
+  font-size:3.5vmax;
+  text-shadow:6px 6px 5px rgb(106, 106, 174);
+  position:absolute;
+}

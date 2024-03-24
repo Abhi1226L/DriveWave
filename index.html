@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Car Manufacturing</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaquery.css" />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -20,8 +21,8 @@
   </head>
   <body>
     <header>
-      <nav class="navbar navbar-expand-lg bg-black" data-bs-theme="dark">
-        <div class="container-fluid p-2 pe-3 ps-3">
+      <nav class="navbar navbar-expand-lg bg-black fixed-top" data-bs-theme="dark">
+        <div class="container-fluid ps-3">
           <a class="navbar-brand" href="#"
             >Drive<span class="text-primary">Wave</span></a
           >
@@ -73,27 +74,10 @@
       </nav>
     </header>
     <main>
-      <!-- <section id="background">
-        <div id="background-written-section">
-          <h2>Control Panel</h2>
-        </div>
-        <div id="background-card">
-          <p>Getting Started</p>
-          <h3>Welcome back,Admin</h3>
-          <div id="card-image-section">
-            <img id="card-image" src="/project2/server.svg" />
-            <div id="card-image-writing">
-              <h3>Affordable,powerful,and reliable servers</h3>
-              <br />
-              <p>
-                The best log-free experience powered by NVMe SSOs and modern
-                CPUs managed by an experienced team who is always here for you
-                when you need them.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section> -->
+      <section class="background-section d-flex justify-content-center align-items-center">
+        <h2 class="hero-theme text-white">Riding the Tides of Innovation</h2>
+        <img class="img-fluid w-100 mt-3" src="car.jpg" alt="car">
+      </section>
     </main>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
