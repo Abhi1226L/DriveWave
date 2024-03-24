@@ -11,6 +11,11 @@ span{
 
 .hero-theme{
   font-size:3.5vmax;
-  text-shadow:6px 6px 5px rgb(106, 106, 174);
+  font-weight:600;
+  text-shadow:6px 6px 4px yellowgreen;
   position:absolute;
+}
+
+.background-section img{
+  height:90vh;
 }

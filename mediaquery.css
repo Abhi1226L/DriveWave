@@ -1,5 +1,11 @@
-@media screen and (max-width:420px){
+@media screen and (max-width:1100px){
     .hero-theme{
-        font-size:5vmin;
+        font-size:7vmin;
+    }
+}
+
+@media screen and (max-width:930px){
+    .hero-theme{
+        font-size:6vmin;
     }
 }
