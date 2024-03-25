@@ -9,3 +9,10 @@
         font-size:6vmin;
     }
 }
+
+@media screen and (max-width:575px){ 
+    .end-section{
+        font-size:2.6vmin;
+    }
+}    
+

@@ -44,3 +44,7 @@ span{
 #product-card button:active{
   background-color:white;
 }  
+
+.end-section{
+  font-size:2vmin;
+}
