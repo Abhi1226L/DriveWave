@@ -21,6 +21,26 @@ span{
 }
 
 .buttons button{
-  display:flex;
-  justify-content:start;
+  text-align:start;
 }
+
+.buttons button:active{
+  background-color:rgb(41, 227, 41);
+}
+
+#contact a{
+  text-decoration:none;
+  color:blue;
+}
+
+#contact a:active{
+  color:violet;
+}
+
+#product-card a{
+  color:black;
+}
+
+#product-card button:active{
+  background-color:white;
+}  

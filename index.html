@@ -18,6 +18,13 @@
       href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
   </head>
   <body>
     <header>
@@ -45,9 +52,6 @@
               <li class="nav-item">
                 <a class="nav-link active" aria-current="page" href="#">Home</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">About</a>
-              </li>
               <li class="nav-item dropdown">
                 <a
                   class="nav-link dropdown-toggle"
@@ -56,20 +60,26 @@
                   data-bs-toggle="dropdown"
                   aria-expanded="false"
                 >
-                  Stages
+                  Product
                 </a>
                 <ul class="dropdown-menu text-center">
-                  <li><a class="dropdown-item" href="#">Market Research</a></li>
-                  <li><a class="dropdown-item" href="#">Planning</a></li>
                   <li>
-                    <a class="dropdown-item" href="#">Design</a>
+                    <a class="dropdown-item" href="#market">Market Research</a>
                   </li>
-                  <li><a class="dropdown-item" href="#">Manufacturing</a></li>
-                  <li><a class="dropdown-item" href="#">Sales</a></li>
+                  <li><a class="dropdown-item" href="#plan">Planning</a></li>
+                  <li>
+                    <a class="dropdown-item" href="#design">Design</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#manufacture"
+                      >Manufacturing</a
+                    >
+                  </li>
+                  <li><a class="dropdown-item" href="#sales">Sales</a></li>
                 </ul>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">ContactUs</a>
+                <a class="nav-link" href="#contact">ContactUs</a>
               </li>
             </ul>
           </div>
@@ -81,25 +91,145 @@
         class="background-section d-flex justify-content-center object-fit-contain align-items-center"
       >
         <h2 class="hero-theme text-white">Riding the Tides of Innovation</h2>
-        <img class="img-fluid w-100 mt-3" src="car-h.jpg" alt="car" />
+        <img class="img-fluid w-100 mt-3" src="car-from-far.jpg" alt="car" />
       </section>
-      <section class="mt-5 d-flex flex-row">
-        <div class="border border-primary">
-          <div>
-            <h3>Quick Actions</h3>
-            <p>Access frequently visited places quicker</p>
-          </div>
+      <section
+        class="container-fluid mt-4 d-flex flex-lg-row flex-column column-gap-4"
+      >
+        <div class="sidebar p-5 border border-primary">
+          <h3>Quick Actions</h3>
+          <p class="mb-5">Access frequently visited places quicker</p>
           <div class="buttons d-flex flex-column">
-            <button>Manage server</button>
-            <button>Security settings</button>
-            <button>Manage account</button>
-            <button>Subscription</button>
+            <button class="mb-3">
+              <i class="fa-solid fa-server m-3"></i>Manage server
+            </button>
+            <button class="mb-3">
+              <i class="fa-solid fa-shield-halved m-3"></i>Security settings
+            </button>
+            <button class="mb-3">
+              <i class="fa-solid fa-address-book m-3"></i>Manage account
+            </button>
+            <button class="mb-3">
+              <i class="fa-solid fa-warehouse m-3"></i>Subscription
+            </button>
+          </div>
+          <div id="contact" class="mt-5">
+            <h3>Contact Us</h3>
+            <p><i class="fa-regular fa-envelope"></i><a href="#"> : Drivewave@.inc.com</a></p>
+            <p><i class="fa-solid fa-phone"></i><a href="#"> : +912424568867</a></p>
+            <p><i class="fa-solid fa-location-dot"></i><a href="#"> : Mumbai</a></p>
           </div>
         </div>
-        <div></div>
+        <div id="product-card">
+          <div id="market" class="border border-primary p-3 mt-lg-0 mt-4">
+            <h4>Market Research</h4>
+            <p>
+              Assessing and gathering data related to the car market industry,
+              including market trends,consumer preferences,competitive
+              analysis,and pricing
+            </p>
+            <button type="button" class="btn btn-secondary"><a class="text-decoration-none" href="https://www.sisinternational.com/expertise/industries/automotive-market-research/#:~:text=Automotive%20market%20research%20supports%20organizations,%2C%20messaging%2C%20and%20marketing%20materials" target="_main">Click here</a></button>
+          </div>
+          <div id="plan" class="border border-primary p-3 mt-4">
+            <h4>Planning</h4>
+            <p>
+              Comprehensive process that involves coordinating,integrating
+              various functions and activities to bring vehicles from concept to
+              market industry
+            </p>
+            <button type="button" class="btn btn-secondary"><a class="text-decoration-none" href="https://maycointernational.com/blog/production-planning-tips-for-automotive-manufacturers/" target="_main">Click here</a></button>
+          </div>
+          <div id="design" class="border border-primary p-3 mt-4">
+            <h4>Design</h4>
+            <p>
+              Embark on a hands-on exploration of futuristic car design. Engage
+              with interactive prototypes, and experiment with customizable
+              features
+            </p>
+            <button type="button" class="btn btn-secondary"><a class="text-decoration-none" href="https://autoprotoway.com/automotive-design-process/" target="_main">Click here</a></button>
+          </div>
+          <div id="manufacture" class="border border-primary p-3 mt-4">
+            <h4>Manufacturing</h4>
+            <p>
+              Uncover the innovation hubs driving the future of automotive
+              manufacturing. and meet the visionaries, startups, and research
+              institutions
+            </p>
+            <button type="button" class="btn btn-secondary"><a class="text-decoration-none" href="https://www.deskera.com/blog/automotive-manufacturing-process/" target="_main">Click here</a></button>
+          </div>
+          <div id="sales" class="border border-primary p-3 mt-4">
+            <h4>Sales</h4>
+            <p>
+              Encompasses activities including sales planning,trend
+              analysis,competitive and channel analysis,forecasting and
+              projections in the industry
+            </p>
+            <button type="button" class="btn btn-secondary"><a class="text-decoration-none" href="https://www.autoraptor.com/blog/demystifying-monthly-car-sales-whats-the-average/" target="_main">Click here</a></button>
+          </div>
+        </div>
       </section>
     </main>
-    <footer></footer>
+    <footer>
+      <div class="container-fluid border border-primary mt-3 p-5 pb-0 bg-black text-white">
+        <footer class="py-lg-5 py-3">
+          <div class="row mb-5">
+            <div class="col-12 col-lg-2 mb-3">
+              <h5>Section</h5>
+              <ul class="nav flex-column">
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">Home</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">Features</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">Pricing</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">FAQs</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">About</a></li>
+              </ul>
+            </div>
+      
+            <div class="col-12 col-lg-2 mt-md-3 mt-sm-3 mb-3">
+              <h5>Discover</h5>
+              <ul class="nav flex-column">
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">Company</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">News</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">Careers</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">Warranty</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">Assistance</a></li>
+              </ul>
+            </div>
+      
+            <div class="col-12 col-lg-2 mt-md-3 mt-sm-3 mb-3">
+              <h5>Services</h5>
+              <ul class="nav flex-column">
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">Owners</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">Features</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">Pricing</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">Financial</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">Safety</a></li>
+              </ul>
+            </div>
+      
+            <div class="col-md-5 offset-md-1 mb-3">
+              <form>
+                <h5>Subscribe to our newsletter</h5>
+                <p>Monthly digest of what's new and exciting from us.</p>
+                <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+                  <label for="newsletter1" class="visually-hidden">Email address</label>
+                  <input id="newsletter1" type="text" class="form-control" placeholder="Email address" fdprocessedid="3otiew">
+                  <button class="btn btn-primary" type="button" fdprocessedid="yw86e">Subscribe</button>
+                </div>
+              </form>
+            </div>
+          </div>
+      
+          <div class="d-flex flex-column flex-sm-row justify-content-between border-top pt-3">
+            <p>© 2024 Company, Inc. All rights reserved.</p>
+            <ul class="list-unstyled d-flex">
+              <li class="ms-3"><a class="link-body-emphasis text-light" href="#"><i class="fa-brands fa-facebook"></i></a></li>
+              <li class="ms-3"><a class="link-body-emphasis text-light" href="#"><i class="fa-brands fa-twitter"></i></use></svg></a></li>
+              <li class="ms-3"><a class="link-body-emphasis text-light" href="#"><i class="fa-brands fa-linkedin"></i></use></svg></a></li>
+            </ul>
+          </div>
+        </footer>
+      </div>
+    </footer>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
