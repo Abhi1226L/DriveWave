@@ -2,11 +2,23 @@
     .hero-theme{
         font-size:7vmin;
     }
+
+    #market-hover{
+        position:absolute;
+        background-color:white;
+        bottom:1rem;
+    }
 }
 
-@media screen and (max-width:930px){
+@media screen and (max-width:990px){
     .hero-theme{
         font-size:6vmin;
+    }
+
+    #market-hover{
+        position:absolute;
+        background-color:white;
+        top:74.5rem;
     }
 }
 
@@ -15,4 +27,12 @@
         font-size:2.6vmin;
     }
 }    
+
+@media screen and (max-width:398px){
+    #market-hover{
+        position:absolute;
+        background-color:white;
+        top:75.7rem;
+    } 
+}
 
